@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "mmdc": "npx -y -p @mermaid-js/mermaid-cli@11.12.0 -p puppeteer@23 mmdc",
     "build": "next build",
     "check": "next lint && tsc --noEmit",
     "db:generate": "prisma migrate dev",
